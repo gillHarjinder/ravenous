@@ -14,7 +14,7 @@ const business = {
     category: 'Italian',
     rating: 4.5,
     reviewCount: 90
-}
+};
 
 const businesses = [
   business,
@@ -23,12 +23,12 @@ const businesses = [
   business,
   business,
   business
-]
+];
 
 class App extends React.Component {
   //
   searchYelp(term, location, sortBy){
-    console.log("Searching Yelp with " + term +", " + location + ", " + sortBy);
+    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
   }
 
   render() {
