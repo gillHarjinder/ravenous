@@ -57,7 +57,7 @@ class SearchBar extends React.Component {
                 {sortByOption}
              </li>);
     });
-  }//
+  }
 
   render() {
     return (
